@@ -1,0 +1,1 @@
+Frontend for my practice project doing a Pokedex. I've used React and started trying out some MaterialUI to see how it goes. Backend will be uploaded on a separated repo (https://github.com/harushishi/Pokedex-Backend).
