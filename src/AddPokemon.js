@@ -33,7 +33,7 @@ export default function AddPokemon() {
         }
 
         axios
-            .post('http://localhost:3001/api/pokemons', newPokemon)
+            .post('https://hsh-pokedex-back.herokuapp.com/api/pokemons', newPokemon)
             .then(response => {
                 return navigate('/Pokedex')
             }).catch(

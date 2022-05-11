@@ -16,7 +16,7 @@ export default function PokemonDetails(props) {
 
     const handleClickDelete = (event) => {
         axios
-            .delete(`http://localhost:3001/api/pokemons/${props.pokemon.id}`)
+            .delete(`https://hsh-pokedex-back.herokuapp.com/api/pokemons/${props.pokemon.id}`)
             .then(response => {
                 return navigate('/pokedex')
             }).catch(

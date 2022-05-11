@@ -18,7 +18,7 @@ const App = () => {
   const [pokemons, setPokemons] = useState([])
   useEffect(() => {
     axios
-      .get('http://localhost:3001/api/pokemons')
+      .get('https://hsh-pokedex-back.herokuapp.com/api/pokemons')
       .then(response => {
         setPokemons(response.data)
       })

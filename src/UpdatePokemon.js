@@ -22,7 +22,7 @@ export default function AddPokemon() {
 
     useEffect(() => {
         axios
-            .get(`http://localhost:3001/api/pokemons/${name}`)
+            .get(`https://hsh-pokedex-back.herokuapp.com/api/pokemons/${name}`)
             .then(response => {
                 setPokemon(response.data)
             })
