@@ -24,7 +24,7 @@ const App = () => {
       })
   }, [])
   return (
-    < Router >
+    <Router>
 
       <Navbar />
       <Routes>
@@ -35,7 +35,7 @@ const App = () => {
         <Route path="/Pokedex/:name/update" element={<UpdatePokemon pokemons={pokemons} />} />
       </Routes>
 
-    </Router >
+    </Router>
   )
 }
 
